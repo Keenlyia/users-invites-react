@@ -1,4 +1,6 @@
 import React from 'react';
+import minusIcon from '../../assets/minus.svg';
+import plusIcon from '../../assets/plus.svg';
 
 export const User = ({id, email, first_name, last_name, avatar, onClickInvite, isInvited}) => (
   <li>
@@ -14,6 +16,11 @@ export const User = ({id, email, first_name, last_name, avatar, onClickInvite, i
         </p>
       </div>
     </div>
-    <img onClick={() => onClickInvite(id)} className="action" src={`/assets/${isInvited ? 'minus' : 'plus'}.svg`} alt="Action" />
+    <img
+      onClick={() => onClickInvite(id)}
+      className="action"
+      src={isInvited ? minusIcon : plusIcon}
+      alt="Action"
+    />
   </li>
 );
