@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/users-invites-react/static/css/main.cd5d95a0.css",
+    "main.js": "/users-invites-react/static/js/main.8eace235.js",
+    "index.html": "/users-invites-react/index.html",
+    "main.cd5d95a0.css.map": "/users-invites-react/static/css/main.cd5d95a0.css.map",
+    "main.8eace235.js.map": "/users-invites-react/static/js/main.8eace235.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd5d95a0.css",
+    "static/js/main.8eace235.js"
+  ]
+}
